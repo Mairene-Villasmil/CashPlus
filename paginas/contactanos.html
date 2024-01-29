@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contactanos.css">
+    <title>CashPlus</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo" src="../img/logo.png" alt="">
+                    <img class="logo-nombre" src="../img/logoNombre.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html" id="Inicio">Inicio</a>
+                        <a class="nav-link" href="./preguntasFrecuentes.html" id="PreguntasFercuentes">¿Que Necesitas?</a>
+                        <a class="nav-link" href="#" id="Contactanos">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+  <form id="loanForm">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" required>
+
+    <label for="dependencia">Dependencia Laboral:</label>
+    <select id="dependencia" required>
+      <option value="autonomo">Autónomo</option>
+      <option value="dependiente">Dependiente</option>
+    </select>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" required>
+
+    <label for="sexo">Sexo:</label>
+    <select id="sexo" required>
+      <option value="masculino">Masculino</option>
+      <option value="femenino">Femenino</option>
+    </select>
+
+    <label for="correo">Correo Electrónico:</label>
+    <input type="email" id="correo" required>
+
+    <label for="dni">DNI:</label>
+    <input type="text" id="dni" required>
+
+    <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+    <input type="date" id="fechaNacimiento" required>
+
+    <button type="submit">Enviar Solicitud</button>
+  </form>
+
+  <div class="img-container">
+    <p>ESTÁS MUY CERCA DE TENER TU DINERO</p>
+    <img class="img-form" src="../img/img-form.png" alt="imagen de dinero">
+  </div>
+    </main>
+    <footer>
+        <div class="copy">
+            <p class="copyR">Copyright&copy; CashPlus - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="../js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>

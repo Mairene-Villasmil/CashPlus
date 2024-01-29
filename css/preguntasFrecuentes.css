@@ -1,0 +1,24 @@
+p{
+    font-size: 2em;
+    color: #0074C7;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px;
+}
+
+.accordion{
+    padding: 10px;
+    width: 90vw !important;
+}
+
+.accordion-button{
+    width: 98vw;
+    margin: 5px 0px;
+    border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+}
+
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: var(--bs-accordion-bg);
+    border: none;
+}
